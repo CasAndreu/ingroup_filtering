@@ -11,7 +11,7 @@ A few files are too large to be stored in this repository. You can find them in 
   - `quote-tweet-db.csv`
 
 ## Data
-The `./data/` directory contains the necessary data to replicate the analytical figures and tables of the paper. Below, we describe each of the datasets in this directory (plus the dataset to be placed there from the Google Drive):
+The `./data/` directory contains the necessary data to replicate the analytical figures of the paper. Below, we describe each of the datasets in this directory (plus the dataset to be placed there from the Google Drive):
 
   - `actors-ideo-scores.csv`: (elite-level dataset) contains information about elite `type` (Journalist, Politician, or Media) as well as ideology score (`ideo`) for each of the political elites included in the analysis (`actor` and `actor_id` provide the Twitter screen name and user id of each elite, respectively)
 
