@@ -174,7 +174,7 @@ ggplot(out02b,
                      limits = c(0.5, 21.5)) +
   scale_y_continuous("\nHow much more likely to add a negative quote to tweet from\nout-group (v. in-group) elite",
                      breaks = seq(0, 2.8, 0.5), labels = paste0("x", seq(0, 2.8, 0.5)),
-                     limits = c(0.7, 2.8)) +
+                     limits = c(0.65, 2.8)) +
   theme(panel.background = element_blank(),
         panel.grid.major.y = element_line(color = "gray90"),
         legend.position = "bottom",
