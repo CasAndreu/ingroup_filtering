@@ -5,7 +5,7 @@ This repository contains the replication material of the article "Most users do 
 
 ## Downloading Large Files from Google Drive
 
-A few files are too large to be stored in this repository. You can find them in the following Google Drive: https://drive.google.com/drive/folders/1gLJ-GY44JeyDbsllqrj9NJ65rNSXeDmq?usp=sharing. Before running any code, you should download the files in there and place them in the `data` directory.
+A few files are too large to be stored in this repository. You can find them in the following Google Drive: https://drive.google.com/drive/folders/1EYqaSF-EukTGhanogqaevSnjn7l0koEH?usp=sharing. Before running any code, you should download the files in there and place them in the `data` directory.
   
   - `ingroup-sharing-model-data.csv`
   - `quote-tweet-db.csv`
