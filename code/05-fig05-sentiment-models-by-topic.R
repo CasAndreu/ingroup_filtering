@@ -177,7 +177,6 @@ ggplot(out02b,
                      limits = c(0.7, 2.8)) +
   theme(panel.background = element_blank(),
         panel.grid.major.y = element_line(color = "gray90"),
-        #panel.grid.major.x = element_line(color = "gray90", linetype = "dotted"),
         legend.position = "bottom",
         axis.line = element_line(),
         axis.title.x = element_text(size = 10),

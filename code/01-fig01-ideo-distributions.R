@@ -19,7 +19,8 @@ library(tidyr)
 library(ggplot2)
 library(ggridges)
 library(ggrepel)
-
+library(extrafont)
+loadfonts()
 
 # DATA
 #===============================================================================
@@ -74,7 +75,7 @@ ideo_db <- ideo_db %>%
 #===============================================================================
 pdf("./figures/figure01.pdf", width = 8, height = 6)
 ggplot(ideo_db,
-       aes(y = type, x = ideo)) + #, fill = factor(stat(quantile)))) +
+       aes(y = type, x = ideo)) +
   geom_vline(xintercept = 0.6, size = 0.5) +
   geom_density_ridges(bandwidth = 0.5, alpha = 0.7, size = 0.1) +
   annotate("rect", xmin = -3.5, xmax = 0, ymin = 1, ymax = 6,
