@@ -19,8 +19,6 @@ library(tidyr)
 library(ggplot2)
 library(ggridges)
 library(ggrepel)
-library(extrafont)
-loadfonts()
 
 # DATA
 #===============================================================================

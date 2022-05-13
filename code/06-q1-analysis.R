@@ -1,5 +1,5 @@
 #==============================================================================
-# 05-q1-analysis.R
+# 06-q1-analysis.R
 # Purpose: to replicate the findings in the paper where we address Q1, so how
 #          politically engaged the users in our random sample are (how many elites
 #          they follow on Twitter); as well as celebrities (as a point of 

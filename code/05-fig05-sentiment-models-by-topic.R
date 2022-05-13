@@ -25,7 +25,7 @@ library(ggplot2)
 # DATA
 #===============================================================================
 # - dataset with all quote tweets of elite actors.N = 2,973,167
-db <- read.csv("../ingroup_filtering_DATA/quote-tweet-db.csv",
+db <- read.csv("./data/quote-tweet-db.csv",
                colClasses = "character")
 
 

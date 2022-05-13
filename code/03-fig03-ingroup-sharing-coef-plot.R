@@ -27,7 +27,7 @@ source("./code/00-functions.R")
 #   modeling ingroup sharing. Shares invovling Moderate users/actors have been
 #   excluded from the dataset.
 #   N = 20,731,455 | 151,066 unique users
-db <- read.csv("../ingroup_filtering_DATA/ingroup-sharing-model-data.csv")
+db <- read.csv("./data/ingroup-sharing-model-data.csv")
 
 # MAIN
 #===============================================================================

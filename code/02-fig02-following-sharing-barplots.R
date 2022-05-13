@@ -116,7 +116,7 @@ db <- read.csv("~/Downloads/rt-qt-ingroup-outgroup-crosstab-w-mod.csv")
 #   such as the ideology of the users and quoted elite actor, as well as the
 #   topic of the original tweet and the sentiment of the quote
 #   N = 2,973,167
-db_qt <- read.csv("../ingroup_filtering_DATA/quote-tweet-db.csv",
+db_qt <- read.csv("./data/quote-tweet-db.csv",
                   colClasses = "character")
 
 
